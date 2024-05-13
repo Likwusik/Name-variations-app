@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Name Variations App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <h1 class="nav-bar">Name variations App</h1>
+      <h1 class="nav-bar">Name variations App</h1>
     </nav>
 
     <main class="container">
-        <div>
-            <label class="label" for="component-name">Enter your name</label>
-            <input type="text" class="input" placeholder="Your name" id="your-name" autocomplete="off">
-        </div>
+      <div>
+        <label class="label" for="component-name">Enter your name</label>
+        <input
+          type="text"
+          class="input"
+          placeholder="Your name"
+          id="your-name"
+          autocomplete="off"
+        />
+      </div>
 
-        <table class="table" border="1">
-            <thead>
-                <tr>
-                    <th width="200px">Variation</th>
-                    <th>Result</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Number of characters</td>
-                    <td id="number"></td>
-                </tr>
-                <tr>
-                    <td>Lower case</td>
-                    <td id="lower"></td>
-                </tr>
-                <tr>
-                    <td>Upper case</td>
-                    <td id="upper"></td>
-                </tr>
-                <tr>
-                    <td>Reverse name</td>
-                    <td id="reverse"></td>
-                </tr>
-                <tr>
-                    <td>Alternative case</td>
-                    <td id="altCase"></td>
-                </tr>
-            </tbody>
-        </table>
-</body>
-</main>
-
-<script src="script.js"></script>
+      <table class="table" border="1">
+        <thead>
+          <tr>
+            <th width="200px">Variation</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Number of characters</td>
+            <td id="number"></td>
+          </tr>
+          <tr>
+            <td>Lower case</td>
+            <td id="lower"></td>
+          </tr>
+          <tr>
+            <td>Upper case</td>
+            <td id="upper"></td>
+          </tr>
+          <tr>
+            <td>Reversed name</td>
+            <td id="reverse"></td>
+          </tr>
+          <tr>
+            <td>Alternative case</td>
+            <td id="altCase"></td>
+          </tr>
+          <tr>
+            <td>Hearted name❤</td>
+            <td id="addHeart"></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
